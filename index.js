@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What did you learn working on this project',
+        message: 'What did you learn working on this project?',
         name: 'learn',
     },
     {

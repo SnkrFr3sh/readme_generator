@@ -77,7 +77,7 @@ For more information on the ${renderLicenseSection(data.license)} license, click
 \n
 ## Credits
 Big thank you to ${data.creditNames} for helping with the project!\n
-A few tools used on this project were: ${data.creditsTools}\n
+A few tools used on this project were: ${data.creditTools}\n
 \n
 ## Contribute
 ${data.contribute}\n
