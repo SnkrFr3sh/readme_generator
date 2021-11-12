@@ -40,8 +40,7 @@ I built this project to help users create readme files instead of typing them ou
 
 
 ## Usage
-
-image link 
+ ![readme-image](https://user-images.githubusercontent.com/87551856/141595742-c86e392a-4dfb-42ac-8294-4b4d59e539a2.png)
 1. Open the `index.js` file in your terminal.
 2. type and run `node index.js`. 
 3. Answer the questions. 
