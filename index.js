@@ -105,7 +105,7 @@ function init() {
             console.log('answers', answers)
             var testReadme = generateMarkdown(answers)
             // console.log('readme',testReadme)
-            writeToFile('README.md', testReadme)
+            writeToFile('./exported-file/README.md', testReadme)
 
 
 
