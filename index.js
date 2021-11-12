@@ -77,7 +77,7 @@ const questions = [
         message: 'Enter your github username:',
         name: 'github',
     },
-    
+
 ];
 
 
@@ -94,14 +94,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
-        // .then (function(answers){
-        //     console.log('answers', answers)
-        //     fs.appendFile('index.js', JSON.stringify(answers), function*(err) {
-        //     console.log('err',err)
-        //     });
 
-        // });
-        .then (function(answers){
+        .then(function (answers) {
             console.log('answers', answers)
             var testReadme = generateMarkdown(answers)
             // console.log('readme',testReadme)
@@ -109,18 +103,12 @@ function init() {
 
 
 
-        });           
-    
+        });
 
-    
+
+
 
 }
-
-
-// var testReadme = generateMarkdown(answers)
-// console.log('readme',testReadme)
-// writeToFile('README.md', testReadme)
-// Function call to initialize app
 
 init();
 
